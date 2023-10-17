@@ -90,8 +90,5 @@ class OrdersController extends Controller
         } 
     }
 
-    public function latestOrders(Request $request){
-        $orders = Order::get()->where()
-        return view('orders.latest-orders');
-    }
+    
 }
