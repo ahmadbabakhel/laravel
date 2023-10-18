@@ -72,7 +72,7 @@
                     <!-- end page title --> 
 
                     <div class="row mt-3">
-                        //@include('orders.latest-order')
+                        {{-- @include('orders.latest-order') --}}
                     </div>
                 </div> <!-- container -->
 
